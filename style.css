@@ -1,0 +1,87 @@
+/* se usa el caracter html, para indicar todo lo que hat dentro de este */
+html{
+    /* se utiliza el atributo para dar color al fondo a la 
+    estructura de html */
+    background-color: aqua;
+}
+
+
+/* se agg el caracter body para mencionar todo lo que esta en su interior */
+body {
+    /* agg la tipografia que se utilizara dentro de body*/
+    font-family: sans-serif;
+    /* agg margin que es para eliminar las margenes en todo en su interior*/
+    margin: 0;
+}
+
+/*se agg la etiqueta para organizar lo que hay en su interior */
+.contenedor {
+    /* se agg display para organizar todo el contenido
+    dentro de la etiqueta en vertical*/
+    display: flex; 
+    /* efinir qué deben hacer los elementos de un
+     contenedor cuando no caben en una sola línea*/
+    flex-wrap: wrap; 
+    /* se agg atributo para distribuir los elementos de manera uniforme 
+    en el contenedor */
+    justify-content: space-around; 
+    /*se agg el atributo*/
+    padding: 50px;
+}
+/* agg un coment */
+.contenedor .tarjeta{
+    /* se utiliza el atributo para dar margen y limite al contenedor
+    en donde esta ubicado el titulo y texto*/
+    width: 10rem;
+} */
+
+/* se agg el selector de etiqueta
+para las clases img */
+.contenedor .tarjeta .img{
+    /* se añade el atributo para darle tamaño a las imagenes 
+    y se utiliza rem para especificar el tamaño*/
+    width: 12rem;
+
+}
+.tarjeta {
+    /* */
+    width: 300px; 
+    /* Agrega un comentario aquí para explicar el atributo margin */
+    margin: 25px; 
+    /* Agrega un comentario aquí para explicar el atributo border */
+    border: 1px solid #ccc; 
+    /* se agg atributo para dar indicacion de tamaño de para 
+    dar espacio al relleno*/
+    padding: 4rem; 
+    /* se agg para dar bordes redondeados a el contenedor*/
+    border-radius: 5px; 
+    /* se agg para dar efecto de sombra al rededor del marco de un elemento*/
+    box-shadow: 0 22px 50px rgba(0, 0, 0, 0.1); 
+}
+/* Agrega un comentario aquí para explicar la función del selector .tarjeta img */
+.tarjeta img {
+    /* se agg el atributo para dar tamallo a la imagen al limite del
+    contenedor*/
+    width: 100%; 
+    /* se agg atributo en automatico para que se permita modificar
+    sin tener defecto de ancho y alto*/
+    height: auto; 
+    /* se agg atributo para permitir dicho desplazamento 
+    en bloque en bloque*/
+    display: block; 
+    /* se agg atributo para permitir redondear puntas de imagenes*/
+    border-radius: 50px 50px 0 0; 
+}
+/* Agrega un comentario aquí para explicar la función del selector .tarjeta h3 */
+.tarjeta h3 {
+    /* Agrega un comentario aquí para explicar el atributo margin-top */
+    margin-top: 10px; 
+}
+
+/*se seleciona la clase para modificar su interior como su tecto*/
+.tarjeta p {
+    /* se agg para modificar tamaño del grosor de el texto*/
+    font-size: 0.9em; 
+    /* se agg para dar espacio entre si en el parrafo*/
+    line-height: 1.5; 
+}
